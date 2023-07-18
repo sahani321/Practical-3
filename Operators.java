@@ -1,8 +1,8 @@
-package Harshad;
+package Vikas;
 
 import java.util.Scanner;
 
-public class Question_2 {
+public class Operators {
 
 	public static void main(String[] args) {
 //				initializing the variables

@@ -11,14 +11,10 @@ public class Factorial {
         
         if (number >= 0) {
             for (int i = 1; i <= number; i++) {
-                factorial *= i;
+                factorial = factorial*i;
             }
             
             System.out.println("The factorial of " + number + " is: " + factorial);
-        } else {
-            System.out.println("Factorial is not defined for negative numbers.");
-        }
-        
-        scanner.close();
+        } 
     }
 }
